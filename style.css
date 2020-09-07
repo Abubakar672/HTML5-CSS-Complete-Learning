@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+  
+}
+
+.container{
+    max-width: 960px;
+    margin: 30px auto ;
+
+}
+.clr{
+    clear: both;
+}
+.Main-Heading{
+
+    background-image: url(/Assests/unnamed.png);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+ 
+}
+
+#Primary-Heading p{
+    background-color:grey;
+    border: 3px solid black;
+    width: 450px;
+    padding: 50px;
+    margin-bottom: 20px;
+}
+#sub-primary-heading{
+    background-color:grey;
+    border: 3px solid black;
+    width: 450px;
+    padding: 50px;
+    margin-bottom: 20px;
+    float: left;
+    
+
+}
+#sub1-primary-heading{
+    background-color:grey;
+    border: 3px solid black;
+    width: 450px;
+    padding: 50px;
+    margin-bottom: 20px;
+    float: right;
+    
+
+}
+#sub2-primary-heading{
+    background-color:grey;
+    border: 3px solid black;
+    width: 450px;
+    padding: 50px;
+    margin-bottom: 20px;
+
+}
+/* MENU CSS */
+*{
+   
+  padding: 0px;
+} 
+.MainBody {
+
+    border: 1px solid gray;
+    max-width: 250px;
+    margin: 30px;
+    line-height: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+   
+}
+.center a {
+text-decoration:none;
+
+
+}
+.center li{
+    border-bottom: 1px solid black;
+    padding: 10px;  
+    list-style: none;
+    
+}
+
+.center :last-child{
+border: none;
+}
+.center a:hover{
+color: red;
+} 
+
+/* NAV BAR CSS */
+
+*{
+box-sizing: border-box;
+}
+.Navbar{
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+
+}
+.Navbar li{
+    float: left;
+    list-style: none ;
+}
+
+.Navbar li a{
+    text-decoration:none;
+    display: block;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+
+}
